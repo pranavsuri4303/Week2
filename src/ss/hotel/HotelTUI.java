@@ -25,7 +25,7 @@ public class HotelTUI {
     private static final String EXIT = "exit";
 
     /** the hotel to operate on */
-    private Hotel hotel;
+    private final Hotel hotel;
 
     /**
      * Creates a TUI for the given hotel.
