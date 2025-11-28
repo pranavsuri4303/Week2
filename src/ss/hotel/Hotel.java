@@ -11,8 +11,8 @@ public class Hotel {
     private final String name;
 
     /** the rooms in the hotel (fixed size: 2 rooms) */
-    private Room room1;
-    private Room room2;
+    protected Room room1;
+    protected Room room2;
 
     /**
      * Creates a Hotel with the given name and two rooms.

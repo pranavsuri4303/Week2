@@ -30,6 +30,6 @@ public class BasicChecker implements Checker {
      */
     @Override
     public String generatePassword() {
-        return "password123";
+        return "default";
     }
 }
